@@ -1,0 +1,21 @@
+{
+  "name": "ticket-api",
+  "version": "1.0.0",
+  "description": "a Ticketing api that stores data such as names, contact infor, messaege, etc...",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Dr460n4ir3 LLC",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "gitignore": "^0.7.0",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "nodemon": "^2.0.22"
+  }
+}
